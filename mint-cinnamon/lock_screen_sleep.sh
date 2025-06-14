@@ -1,10 +1,12 @@
 #!/bin/bash
 # Shell script for Linux Mint (or other distros with Cinnamon Desktop Environment)
+# Script by Bryan Candiliere - 2025
+#
 # Cinnamon doesn't have a configurable screen timeout for the lock screen, 
 # so it follows the main screen inactivity timeout.
 # This allows you to change the timeout after locking/sleeping the display,
 # then change back to a longer timeout after unlocking.
-# This script can be assigned to a keyboard shortcut in Cinnamon, such as Super+L.
+# The script can be executed by a keyboard shortcut in Cinnamon, such as Super+L.
 
 # Enable screensaver and lock display
 cinnamon-screensaver-command -l
