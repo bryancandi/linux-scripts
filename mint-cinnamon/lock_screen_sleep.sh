@@ -4,6 +4,7 @@
 # so it follows the main screen inactivity timeout.
 # This allows you to change the timeout after locking/sleeping the display,
 # then change back to a longer timeout after unlocking.
+# This script can be assigned to a keyboard shortcut in Cinnamon, such as Super+L.
 
 # Enable screensaver and lock display
 cinnamon-screensaver-command -l
